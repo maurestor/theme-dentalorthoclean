@@ -41,7 +41,7 @@
 
             <div id=details class='border-top border-red-300 h-12 bg-center text-center'>
                 <p>Dental "OrthoClean" <?php echo date('Y'); ?></p> 
-                <p class='text-gray-400 text-xs'>Desarrollado en <a class='underline' href="https://www.facebook.com/Mecarox" target="_blank">mecaroXgames</a> por <a  class='underline' href="https://github.com/maurestor" target="_blank">mau_restor</a>.</p>
+                <p class='text-gray-400 text-xs'>Desarrollado en <a class='underline' href="https://www.facebook.com/Mecarox" target="_blank">mecaroXgames</a>.</p>
             </div>
         </footer>
     
