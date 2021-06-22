@@ -5,14 +5,14 @@
     
     <div id='carrousel' class="portada col-span-1 grid grid-cols-1 mt-14">
 
-        <div class="container col-span-12 h-128 pt-20 sm:pt-16 md:pt-7">
+        <div class="container col-span-12 h-128 pt-5 sm:pt-16 md:pt-7">
             <?php echo do_shortcode( '[smartslider3 slider="2"]');?>
         </div>
 
     </div>
 
     <div class='text-sm md:text-2xl sans-serif text-center h-20'>
-        <h3 class='align-middle'>Ven con nosotros a <span class='text-green-500'>Dental "OrthoClean"</span> a tomar una consulta, te esperamos.</h3>
+        <h3 class='align-middle azul text-sm sm:text-base md:text-lg font-medium'>Ven con nosotros a <span class='verde rounded font-black'>Dental "OrthoClean"</span> a tomar una consulta, te esperamos.</h3>
     </div>
     
     <div id='menu-pages-second' class='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3'>

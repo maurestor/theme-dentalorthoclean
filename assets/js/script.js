@@ -3,20 +3,25 @@ function myFunction(x){
 }
 
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {scrollFunction()}
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    
+    document.getElementById("navbar-top").style.visibility = "hidden";
     document.getElementById("navbar").style.padding = "0px 0px";
-    var num = '25px';
-    var height = document.getElementById("logo-img").height = num;
-    console.log('Bajando ' + height)
+    
+    // var num = '25px';
+    // var height = document.getElementById("logo-img").height = num;
+    // console.log('Bajando ' + height);
   } else {
-    document.getElementById("navbar").style.padding = "20px 0px";
+    document.getElementById("navbar-top").style.visibility = "visible";
+    document.getElementById("navbar").style.padding = "28px 0px 0px 0px";
     // document.getElementById("logo-img").style.backgroundSize = "35px";  
-    var num = '80px';
-    var height = document.getElementById("logo-img").height = num;
-    console.log('Top ' + height)
+    
+    // var num = '0px';
+    // var height = document.getElementById("logo-img").height = num;
+    // console.log('Top ' + height);
   }
 }
 

@@ -10,9 +10,9 @@
                             <li>servicio@clinicalorthoclean.com</li>
                         </ul>
                     </div>
-                    <div class='bg-center text-center w-auto'>
+                    <!-- <div class='bg-center text-center w-auto'>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3765.6443811339295!2d-99.0689948!3d19.2978251!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce02527d482609%3A0x5eb9d1a77b22b6be!2sSastreria%20Urbano%20Ramirez!5e0!3m2!1ses-419!2smx!4v1624064963237!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
+                    </div> -->
                 </div>
                 <!-- <div class="footer-center">
                     <h1>Meses sin intereses</h1>
@@ -41,7 +41,7 @@
 
             <div id=details class='border-top border-red-300 h-12 bg-center text-center'>
                 <p>Dental "OrthoClean" <?php echo date('Y'); ?></p> 
-                <p class='text-gray-400 text-xs'>Desarrollado en <a class='underline' href="https://www.facebook.com/Mecarox" target="_blank">mecaroXgames</a>.</p>
+                <p class='text-gray-400 text-xs'>Desarrollado en <a class='underline' href="https://www.facebook.com/Mecarox" target="_blank">mecaroXg</a><a class='underline' href="<?php echo site_url('/wp-admin'); ?>" target="_blank">a</a><a class='underline' href="https://www.facebook.com/Mecarox" target="_blank">mes</a>.</p>
             </div>
         </footer>
     
