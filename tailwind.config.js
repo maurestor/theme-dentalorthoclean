@@ -51,7 +51,7 @@ module.exports = {
   },
   variants: {},
   plugins: [
-    
+    require('tailwindcss-textshadow'),
     function ({ addComponents }) {
       addComponents({
         '.container': {
@@ -66,7 +66,7 @@ module.exports = {
             maxWidth: '100%',
           },
           '@screen xl': {
-            maxWidth: '100%',
+            maxWidth: '90%',
           },
         }
       })
