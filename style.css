@@ -16,6 +16,15 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url("https://www.dentalorthoclean.com/wp-content/themes/orthoclean/assets/fonts/Roboto-Regular.ttf") format('truetype');
+}
+
 /* =WordPress Core
 -------------------------------------------------------------- */
 .alignnone {
@@ -400,13 +409,17 @@ blockquote.right {}
 
 /* hamburger menu*/
 .container-menu {
-    display: inline-block;
+    /* display: inline-block; */
+    position: absolute;
+    right: 20px;
+    bottom: 4px;
     cursor: pointer;
 }
 .container-menu a:hover{
     background-color: #56a09a;
 }
 .bar1, .bar2, .bar3 {
+    
     width: 35px;
     height: 5px;
     background-color: #333;
@@ -520,6 +533,9 @@ blockquote.right {}
 .azul {
     color: #4881b5;
 }
+.blanco{
+    color: white;
+}
 
 /* .container {
 	width: 100%;
@@ -559,3 +575,31 @@ blockquote.right {}
 		max-width: 100%;
 	}
 } */
+
+.shadow-a{
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+.shadow-b{
+    text-shadow: 1px 1px 1px rgb(44, 97, 74);
+}
+.shadow-w{
+    text-shadow: 1px 1px 1px rgb(213, 213, 213);
+}
+.stroke-a{
+    -webkit-text-stroke: 1px rgb(99, 99, 99);
+}
+.stroke-b{
+    -webkit-text-stroke: 1px rgb(0, 107, 157);
+}
+.pads-r{
+    padding-right: 4px;
+}
+
+#first-phone-number{
+    padding-right: 5px;
+}
+
+.page_item{
+    float: left;
+    display: block;
+}

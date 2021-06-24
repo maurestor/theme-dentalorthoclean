@@ -11,6 +11,9 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
+
+require 'inc/dental-template-functions.php';
+require 'inc/dental-template-hooks.php';
 /* Agregando script y css
  *
  */
@@ -112,6 +115,14 @@ function wpb_custom_new_menu() {
 add_action( 'init', 'wpb_custom_new_menu' );
 
 
+//filtro para los menus INCOMPLETO
+//#####################################
+// function filtro_clas_li($classes, $item, $args) {
+//   if ($args->theme_location == 'first-menu'){
+//     $classes[] = 
+//   }
+// }
+
 /* Tailwind CSS */
 define( 'BIIIRD_THEME_VERSION', '1.0.2' );
 
@@ -129,43 +140,10 @@ function iconos_glypcs(){
 add_action('wp_enqueue_scripts', 'iconos_glypcs');
 
 
-
-function leaflet_map(){
-  wp_enqueue_style( 'leaflet', 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css');
-}
-
-
-// // Add specific CSS class by filter.
-
-// add_filter( 'body_class', function( $classes ) {
-//   return array_merge( $classes, array( 'container','my-0', 'm-auto') );
-// } );
-
-add_action('wp_head', 'custom_ajax_spinner', 1000 );
-function custom_ajax_spinner() {
-    ?>
-    <style>
-    .woocommerce .blockUI.blockOverlay:before,
-    .woocommerce .loader:before {
-        height: 3em;
-        width: 3em;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-left: -.5em;
-        margin-top: -.5em;
-        display: block;
-        content: "";
-        -webkit-animation: none;
-        -moz-animation: none;
-        animation: none;
-        background-image:url('<?php echo get_stylesheet_directory_uri() . "/img/my_spinner.gif"; ?>') !important;
-        background-position: center center;
-        background-size: cover;
-        line-height: 1;
-        text-align: center;
-        font-size: 2em;
-    }
-    </style>
-    <?php
-}
+//Remove Gutenberg Block Library CSS from loading on the frontend
+function smartwp_remove_wp_block_library_css(){
+  wp_dequeue_style( 'wp-block-library' );
+  wp_dequeue_style( 'wp-block-library-theme' );
+  wp_dequeue_style( 'wc-block-style' ); // Remove WooCommerce block CSS
+} 
+add_action( 'wp_enqueue_scripts', 'smartwp_remove_wp_block_library_css', 100 );

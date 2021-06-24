@@ -2,10 +2,10 @@
             
             <div id='row-superior'class="address grid grid-cols-1 sm:grid-cols-2">
                 
-                <div id='address' class="footer-left bg-center text-center grid row-span-2 p-4">
+                <div id='address' class="footer-left bg-center text-center grid row-span-2 p-4 shadow-xl rounded-3xl">
                     <div class='verde'>
-                        <h1 class='text-2xl verde'>Jacarandas</h1>
-                        <p class='text-xs azul'>(Ubica nuestra sucursal)</p>
+                        <h1 class='text-2xl verde'>Sucursal Jacarandas</h1>
+                        <p class='text-xs azul underline'><a href='#contacto'>Ver mapa</a></p>
                         
                         <ul class='text-sm flex flex-col pt-5'>
                         
@@ -15,15 +15,15 @@
                             </li>
 
                             <li class='azul'>
-                                <span>(entre calle encino y Cipres)</span>
+                                <span>(Entre calle Encino y Ciprés)</span>
                             </li>
 
-                            <li class='left flex justify-center'>
+                            <li class='flex justify-center'>
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1.3em" height="1.3em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
                                     <path d="M20.487 17.14l-4.065-3.696a1.001 1.001 0 0 0-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66c-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 0 0 .043-1.391L6.859 3.513a1 1 0 0 0-1.391-.087l-2.17 1.861a1 1 0 0 0-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 0 0 .648-.291l1.86-2.171a.997.997 0 0 0-.085-1.39z" fill="#626262"/>
                                     <rect x="0" y="0" width="24" height="24" fill="rgba(0, 0, 0, 0)" />
                                 </svg>
-                                <span class='azul'>Tel: </span><span>5618350826, </span><a href='https://web.whatsapp.com/send?phone=525570072288' class='underline' target='_blank' class=''><p class=''>5570072288</p></a>
+                                <span class='azul pads-r block'>Tel:</span><span class='pads-r'>5618350826,</span><a href='https://web.whatsapp.com/send?phone=525570072288' class='underline' target='_blank' class=''><p class=''>5570072288</p></a>
                             </li>
 
                             <li class='left flex justify-center'>
@@ -47,12 +47,13 @@
                         <li>Descripcion 2</li>
                     </ul>
                 </div> -->
-                <div id='credit-card' class="footer-right bg-center text-center verde p-4">
-                    <h1 class='text-2xl'>Aceptamos tarjeta</h1>
-                    <p class='azul'>Aceptamos todas la tarjetas<br></p>
+                <div id='credit-card' class="footer-right bg-center text-center verde p-4 shadow-xl rounded-3xl">
+                    <h1 class='text-2xl'>Aceptamos todas las tarjetas de credito, debito y amex</h1>
+                    <p class='azul'>Mastercard, Visa y Amex<br></p>
                     <ul class='flex justify-center'>
                         <li><img src="<?php echo site_url('wp-content/themes/orthoclean/assets/img/master.jpg'); ?>" alt=""></li>
                         <li><img src="<?php echo site_url('wp-content/themes/orthoclean/assets/img/visa.jpg'); ?>" alt=""></li>
+                        <li><img src="<?php echo site_url('wp-content/themes/orthoclean/assets/img/amex.png'); ?>" alt=""></li>
                     </ul>
                     <!-- <ul class='flex bg-center text-center'>
                         <li><a href="#">fbk</a></li>
@@ -64,7 +65,7 @@
 
             </div>
 
-            <div id='details' class='h-auto bg-center text-center verde border-t-2 border-green-800 p-4 shadow md:shadow-lg rounded-full'>
+            <div id='details' class='h-auto bg-center text-center verde border-green-800 p-4 shadow md:shadow-lg rounded-full'>
                 <p class='azul'>Dental <span class='verde'>"OrthoClean"</span> <span class='azul'><?php echo date('Y'); ?>.</span></p> 
                 <p class='text-gray-400 text-xs'>Desarrollado en <a class='underline' href="https://www.facebook.com/Mecarox" target="_blank">mecaroXg</a><a class='underline' href="<?php echo site_url('/wp-admin'); ?>" target="_blank">a</a><a class='underline' href="https://www.facebook.com/Mecarox" target="_blank">mes</a>.</p>
             </div>

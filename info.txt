@@ -1,9 +1,9 @@
 Colors
 ################
 
-56a09aff verdukis
-
-4881b5ff   azul
+56a09a ff verdukis
+34c2b7 ff  Verde light
+4881b5 ff   azul
 
 
 Fonts

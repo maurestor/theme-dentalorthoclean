@@ -3,7 +3,6 @@ const colors = require('tailwindcss/colors')
 module.exports = {
   // important: true,
   mode: 'jit',
-
   purge:  [
       './src/**/*.php',
       './template-parts/**/*.php',
@@ -13,9 +12,7 @@ module.exports = {
       './src/**/*.js',
       './assets/js/script.js',
     ],
-  
   darkMode: false, //you can set it to media(uses prefers-color-scheme) or class(better for toggling modes via a button)
-  
   theme: {
     colors: {
       transparent: 'transparent',
@@ -55,9 +52,7 @@ module.exports = {
     }
 
   },
-  
   variants: {},
-  
   plugins: [
     require('tailwindcss-textshadow'),
 
