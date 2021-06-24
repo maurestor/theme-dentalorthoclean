@@ -14,8 +14,9 @@ if ( ! function_exists( 'dental_content' ) ) {
      */
     function dental_content() {
         ?>
+            <h1><?php the_title(); ?></h1>
             <?php the_content(); ?>
-            
+
         <?php
     }
 }
@@ -135,11 +136,9 @@ if ( ! function_exists( 'dental_promo_especialidades' ) ) {
      */
     function dental_promo_especialidades() {
         ?>
-            <!-- promo-especialidades -->
-            <div id='promo-contamos-especialidades' class='text-sm md:text-2xl sans-serif text-center h-24 mt-auto mb-auto p-5 shadow-xl rounded-3xl'>
-                <h3 class='align-middle azul'>En <span class='verde rounded font-black'>Dental "OrthoClean"</span> <span class='azul'>contamos con todas las especialidades para ti y tu familia</span></h3>
-            </div>
-            <!-- /promo-especialidades -->
+
+        <h3 class='align-middle azul'>En <span class='verde rounded font-black'>Dental "OrthoClean"</span> <span class='azul'>contamos con todas las especialidades para ti y tu familia</span></h3>
+        
         <?php
     }
 }
@@ -223,9 +222,7 @@ if ( ! function_exists( 'dental_especialidad_cirujia' ) ) {
 if ( ! function_exists( 'dental_promo_visitanos' ) ) {
     function dental_promo_visitanos() {
         ?>
-        <div id='promo-visitanos' class='text-sm md:text-2xl sans-serif text-center h-24 mt-auto mb-auto p-5 shadow-xl rounded-3xl'>
-            <h3 class='align-middle azul'>Recuerda visitarnos un par de veces al año, <span class='verde font-black'>Dental "OrthoClean"</span></h3>
-        </div>
+        <h3 class='align-middle azul'>Recuerda visitarnos un par de veces al año, <span class='verde font-black'>Dental "OrthoClean"</span></h3>
         <?php
     }
 }
