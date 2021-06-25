@@ -114,16 +114,16 @@
                     <div class='menu'>
                         <ul class='flex flex-col float-left text-sm md:flex-row md:space-x-6 md:w-auto font-semibold w-full lg:bg-transparent p-6 md:p-0'>
                             <li class='hover:underline w-auto'><a href="<?php echo site_url(''); ?>">Portada</a></li>
-                            <li class='hover:underline w-auto'><a href="<?php echo site_url('tratamientos-dentales'); ?>">Tratamientos Dentales</a></li>
+                            <li class='hover:underline w-auto'><a href="<?php echo site_url('#tratamientos-dentales'); ?>">Tratamientos Dentales</a></li>
                                 <ul class='transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top w-8 min-w-min'>
-                                    <li class='hover:underline'><a href="<?php echo site_url('tratamientos-dentales/ninios'); ?>">Niños</a></li>
-                                    <li class='hover:underline'><a href="<?php echo site_url('tratamientos-dentales/limpieza'); ?>">Limpieza</a></li>
-                                    <li class='hover:underline'><a href="<?php echo site_url('tratamientos-dentales/endodoncia'); ?>">Endodoncia</a></li>
-                                    <li class='hover:underline'><a href="<?php echo site_url('tratamientos-dentales/estracciones'); ?>">Extracciones</a></li>
+                                    <li class='hover:underline'><a href="<?php echo site_url('odontopediatria'); ?>">Niños</a></li>
+                                    <li class='hover:underline'><a href="<?php echo site_url('limpieza-dental'); ?>">Limpieza</a></li>
+                                    <li class='hover:underline'><a href="<?php echo site_url('endodoncia'); ?>">Endodoncia</a></li>
+                                    <li class='hover:underline'><a href="<?php echo site_url('extracciones'); ?>">Extracciones</a></li>
                                     
                                 </ul>
-                            <li class='hover:underline w-auto'><a href="<?php echo site_url('promotions'); ?>">Promociones</a></li>
-                            <li class='hover:underline w-auto'><a href="<?php echo site_url('index.php/contact'); ?>">Contacto</a></li>
+                            <li class='hover:underline w-auto'><a href="<?php echo site_url('promociones'); ?>">Promociones</a></li>
+                            <li class='hover:underline w-auto'><a href="<?php echo site_url('index.php/contacto'); ?>">Contacto</a></li>
                         </ul>
                     </div>
                 </nav>

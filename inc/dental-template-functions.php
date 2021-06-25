@@ -232,14 +232,14 @@ if ( ! function_exists( 'dental_tratamiento_limpieza' ) ) {
     function dental_tratamiento_limpieza() {
         ?>
         <div id='tratamiento-limpieza-dental' class='group relative overflow-hidden text-center rounded-3xl shadow-xl'>
-            <a href='<?php echo site_url("#limpieza"); ?>'>
+            <a href='<?php echo site_url("limpieza-dental"); ?>'>
                 <img class='ml-auto mr-auto block relative bg-center max-w-full h-auto transform scale-100 group-hover:transform group-hover:scale-125 group-active:transition ease-in-out duration-500 group-hover:underline' src="<?php echo site_url('wp-content/themes/orthoclean/assets/img/limpieza.jpg'); ?>" alt="limpieza-dental">
 
                 <div id='ovelay-pages' class='absolute top-0 left-0 w-full h-full bg-indigo-50 bg-opacity-0 group-hover:bg-opacity-50 group-hover:transition ease-in-out duration-1000 grid grid-rows-2' >
 
                     <h3 class='h-full relative top-0 left-0 transform translate-y-36 transition group-hover:translate-y-20 group-hover:transition group-hover:ease-in-out duration-1000 blanco font-black text-xl group-hover:text-3xl stroke-a shadow-a animate-pulse'>Limpieza Dental</h3>
 
-                    <p class='relative top-0 left-0 transform text-transparent group-hover:text-indigo-400 group-hover:transition ease-in-out duration-1000 azul shadow-b'>Obtén una higiene bucal fantastica, sin dolor con lo último en tecnología.</p>
+                    <p class='relative top-0 left-0 transform text-transparent group-hover:text-indigo-400 group-hover:transition ease-in-out duration-1000 azul shadow-b'></p>
                 </div>
             </a>
         </div>
@@ -254,15 +254,17 @@ if ( ! function_exists( 'dental_tratamiento_ninios' ) ) {
         ?>
         <div id='tratamiento-ninios' class='group relative overflow-hidden text-center rounded-3xl shadow-xl'>
             
-            <img class='ml-auto mr-auto block relative bg-center max-w-full h-auto transform scale-100 group-hover:transform group-hover:scale-125 group-active:transition ease-in-out duration-500' src="<?php echo site_url('wp-content/themes/orthoclean/assets/img/childrens.jpg'); ?>" alt="niños">
+            <a href='<?php echo site_url("odontopediatria"); ?>'>
+                <img class='ml-auto mr-auto block relative bg-center max-w-full h-auto transform scale-100 group-hover:transform group-hover:scale-125 group-active:transition ease-in-out duration-500' src="<?php echo site_url('wp-content/themes/orthoclean/assets/img/childrens.jpg'); ?>" alt="niños">
 
-            <div id='ovelay-pages' class='absolute top-0 left-0 w-full h-full bg-indigo-50 bg-opacity-0 group-hover:bg-opacity-50 group-hover:transition ease-in-out duration-1000 grid grid-rows-2' >
+                <div id='ovelay-pages' class='absolute top-0 left-0 w-full h-full bg-indigo-50 bg-opacity-0 group-hover:bg-opacity-50 group-hover:transition ease-in-out duration-1000 grid grid-rows-2' >
 
-                <h3 class='h-full relative top-0 left-0 transform translate-y-36 transition group-hover:translate-y-20 group-hover:transition group-hover:ease-in-out duration-1000 blanco font-black text-xl group-hover:text-3xl stroke-a shadow-a animate-pulse'>Niños</h3>
+                    <h3 class='h-full relative top-0 left-0 transform translate-y-36 transition group-hover:translate-y-20 group-hover:transition group-hover:ease-in-out duration-1000 blanco font-black text-xl group-hover:text-3xl stroke-a shadow-a animate-pulse'>Niños</h3>
 
-                <p class='relative top-0 left-0 transform text-transparent group-hover:text-indigo-400 group-hover:transition ease-in-out duration-1000 azul shadow-b'>ninios</p>
+                    <p class='relative top-0 left-0 transform text-transparent group-hover:text-indigo-400 group-hover:transition ease-in-out duration-1000 azul shadow-b'></p>
 
-            </div>
+                </div>
+            </a>
         </div>
         <?php
     }
@@ -275,15 +277,17 @@ if ( ! function_exists( 'dental_tratamiento_brackets' ) ) {
         ?>
         <div id='tratamiento-brackets' class='group relative overflow-hidden text-center rounded-3xl shadow-xl'>
 
-            <img class='ml-auto mr-auto block relative bg-center max-w-full h-auto transform scale-100 group-hover:transform group-hover:scale-125 group-active:transition ease-in-out duration-500' src="<?php echo site_url('wp-content/themes/orthoclean/assets/img/brackets.jpg'); ?>" alt="brackets">
+            <a href='<?php echo site_url("brackets"); ?>'>
+                <img class='ml-auto mr-auto block relative bg-center max-w-full h-auto transform scale-100 group-hover:transform group-hover:scale-125 group-active:transition ease-in-out duration-500' src="<?php echo site_url('wp-content/themes/orthoclean/assets/img/brackets.jpg'); ?>" alt="brackets">
 
-            <div id='ovelay-pages' class='absolute top-0 left-0 w-full h-full bg-indigo-50 bg-opacity-0 group-hover:bg-opacity-50 group-hover:transition ease-in-out duration-1000 grid grid-rows-2' >
+                <div id='ovelay-pages' class='absolute top-0 left-0 w-full h-full bg-indigo-50 bg-opacity-0 group-hover:bg-opacity-50 group-hover:transition ease-in-out duration-1000 grid grid-rows-2' >
 
-                <h3 class='h-full relative top-0 left-0 transform translate-y-36 transition group-hover:translate-y-20 group-hover:transition group-hover:ease-in-out duration-1000 blanco font-black text-xl group-hover:text-3xl stroke-a shadow-a animate-pulse'>Brackest</p>
-            </div>
+                    <h3 class='h-full relative top-0 left-0 transform translate-y-36 transition group-hover:translate-y-20 group-hover:transition group-hover:ease-in-out duration-1000 blanco font-black text-xl group-hover:text-3xl stroke-a shadow-a animate-pulse'>Brackets</p>
+                </div>
+            </a>
         </div>
         <?php
-    }
+        }
 }
 
 
@@ -293,14 +297,16 @@ if ( ! function_exists( 'dental_tratamiento_implantes' ) ) {
         ?>
         <div id='tratamiento-implantes' class='group relative overflow-hidden text-center rounded-3xl shadow-xl'>
 
-            <img class='ml-auto mr-auto block relative bg-center max-w-full h-auto transform scale-100 group-hover:transform group-hover:scale-125 group-active:transition ease-in-out duration-500' src="<?php echo site_url('wp-content/themes/orthoclean/assets/img/implantes_a.png'); ?>" alt="implantes-dentales">
+            <a href='<?php echo site_url("implantes"); ?>'>
+                <img class='ml-auto mr-auto block relative bg-center max-w-full h-auto transform scale-100 group-hover:transform group-hover:scale-125 group-active:transition ease-in-out duration-500' src="<?php echo site_url('wp-content/themes/orthoclean/assets/img/implantes_a.png'); ?>" alt="implantes-dentales">
 
-            <div id='ovelay-pages' class='absolute top-0 left-0 w-full h-full bg-indigo-50 bg-opacity-0 group-hover:bg-opacity-50 group-hover:transition ease-in-out duration-1000 grid grid-rows-2' >
+                <div id='ovelay-pages' class='absolute top-0 left-0 w-full h-full bg-indigo-50 bg-opacity-0 group-hover:bg-opacity-50 group-hover:transition ease-in-out duration-1000 grid grid-rows-2' >
 
-                <h3 class='h-full relative top-0 left-0 transform translate-y-36 transition group-hover:translate-y-20 group-hover:transition group-hover:ease-in-out duration-1000 blanco font-black text-xl group-hover:text-3xl stroke-a shadow-a animate-pulse'>Implantes</h3>
+                    <h3 class='h-full relative top-0 left-0 transform translate-y-36 transition group-hover:translate-y-20 group-hover:transition group-hover:ease-in-out duration-1000 blanco font-black text-xl group-hover:text-3xl stroke-a shadow-a animate-pulse'>Implantes</h3>
 
-                <p class='relative top-0 left-0 transform text-transparent group-hover:text-indigo-400 group-hover:transition ease-in-out duration-1000 azul shadow-b'>Implantes</p>
-            </div>
+                    <p class='relative top-0 left-0 transform text-transparent group-hover:text-indigo-400 group-hover:transition ease-in-out duration-1000 azul shadow-b'></p>
+                </div>
+            </a>
         </div>
         <?php
     }
@@ -308,19 +314,21 @@ if ( ! function_exists( 'dental_tratamiento_implantes' ) ) {
 
 
 
-if ( ! function_exists( 'dental_tratamiento_molares' ) ) {
-    function dental_tratamiento_molares() {
+if ( ! function_exists( 'dental_ortodoncia_ortopedia' ) ) {
+    function dental_ortodoncia_ortopedia() {
         ?>
         <div id='tratamiento-molares' class='group relative overflow-hidden text-center rounded-3xl shadow-xl'>
 
-            <img class='ml-auto mr-auto block relative bg-center max-w-full h-auto transform scale-100 group-hover:transform group-hover:scale-125 group-active:transition ease-in-out duration-500' src="<?php echo site_url('wp-content/themes/orthoclean/assets/img/implantes_a.png'); ?>" alt="molares-dentales">
+            <a href='<?php echo site_url("ortodoncia-y-ortopedia-maxilofacial"); ?>'>
+                <img class='ml-auto mr-auto block relative bg-center max-w-full h-auto transform scale-100 group-hover:transform group-hover:scale-125 group-active:transition ease-in-out duration-500' src="<?php echo site_url('wp-content/themes/orthoclean/assets/img/ortopedia.jpg'); ?>" alt="ortopedia-ortodoncia">
 
-            <div id='ovelay-pages' class='absolute top-0 left-0 w-full h-full bg-indigo-50 bg-opacity-0 group-hover:bg-opacity-50 group-hover:transition ease-in-out duration-1000 grid grid-rows-2' >
+                <div id='ovelay-pages' class='absolute top-0 left-0 w-full h-full bg-indigo-50 bg-opacity-0 group-hover:bg-opacity-50 group-hover:transition ease-in-out duration-1000 grid grid-rows-2' >
 
-                <h3 class='h-full relative top-0 left-0 transform translate-y-36 transition group-hover:translate-y-20 group-hover:transition group-hover:ease-in-out duration-1000 blanco font-black text-xl group-hover:text-3xl stroke-a shadow-a animate-pulse'>Ortodoncia y Ortopedia Maxilofacial</h3>
+                    <h3 class='h-full relative top-0 left-0 transform translate-y-36 transition group-hover:translate-y-20 group-hover:transition group-hover:ease-in-out duration-1000 blanco font-black text-xl group-hover:text-3xl stroke-a shadow-a animate-pulse'>Ortodoncia y Ortopedia Maxilofacial</h3>
 
-                <p class='relative top-0 left-0 transform text-transparent group-hover:text-indigo-400 group-hover:transition ease-in-out duration-1000 azul shadow-b'>OyOM</p>
-            </div>
+                    <p class='relative top-0 left-0 transform text-transparent group-hover:text-indigo-400 group-hover:transition ease-in-out duration-1000 azul shadow-b'></p>
+                </div>
+            </a>
         </div>
         <?php
     }
@@ -328,19 +336,21 @@ if ( ! function_exists( 'dental_tratamiento_molares' ) ) {
 
 
 
-if ( ! function_exists( 'dental_tratamiento_extra' ) ) {
-    function dental_tratamiento_extra() {
+if ( ! function_exists( 'dental_cirujia_dental' ) ) {
+    function dental_cirujia_dental() {
         ?>
-        <div id='tratamiento-implantes' class='group relative overflow-hidden text-center rounded-3xl shadow-xl'>
+        <div id='cirujia-dental' class='group relative overflow-hidden text-center rounded-3xl shadow-xl'>
 
-            <img class='ml-auto mr-auto block relative bg-center max-w-full h-auto transform scale-100 group-hover:transform group-hover:scale-125 group-active:transition ease-in-out duration-500' src="<?php echo site_url('wp-content/themes/orthoclean/assets/img/implantes_a.png'); ?>" alt="implantes-dentales">
+            <a href='<?php echo site_url("cirujia-bucal-y-maxilofacial"); ?>'>
+                <img class='ml-auto mr-auto block relative bg-center max-w-full h-auto transform scale-100 group-hover:transform group-hover:scale-125 group-active:transition ease-in-out duration-500' src="<?php echo site_url('wp-content/themes/orthoclean/assets/img/cirujia.jpg'); ?>" alt="cirujia-dental">
 
-            <div id='ovelay-pages' class='absolute top-0 left-0 w-full h-full bg-indigo-50 bg-opacity-0 group-hover:bg-opacity-50 group-hover:transition ease-in-out duration-1000 grid grid-rows-2' >
+                <div id='ovelay-pages' class='absolute top-0 left-0 w-full h-full bg-indigo-50 bg-opacity-0 group-hover:bg-opacity-50 group-hover:transition ease-in-out duration-1000 grid grid-rows-2' >
 
-                <h3 class='h-full relative top-0 left-0 transform translate-y-36 transition group-hover:translate-y-20 group-hover:transition group-hover:ease-in-out duration-1000 blanco font-black text-xl group-hover:text-3xl stroke-a shadow-a animate-pulse'>Cirujia Bucal y Maxilofacial</h3>
+                    <h3 class='h-full relative top-0 left-0 transform translate-y-36 transition group-hover:translate-y-20 group-hover:transition group-hover:ease-in-out duration-1000 blanco font-black text-xl group-hover:text-3xl stroke-a shadow-a animate-pulse'>Cirujia Bucal y Maxilofacial</h3>
 
-                <p class='relative top-0 left-0 transform text-transparent group-hover:text-indigo-400 group-hover:transition ease-in-out duration-1000 azul shadow-b'>OyOM</p>
-            </div>
+                    <p class='relative top-0 left-0 transform text-transparent group-hover:text-indigo-400 group-hover:transition ease-in-out duration-1000 azul shadow-b'></p>
+                </div>
+            </a>
         </div>        
         <?php
     }

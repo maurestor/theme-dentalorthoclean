@@ -64,6 +64,6 @@ add_action( 'dental_tratamientos', 'dental_tratamiento_limpieza', 10 );
 add_action( 'dental_tratamientos', 'dental_tratamiento_ninios', 20 );
 add_action( 'dental_tratamientos', 'dental_tratamiento_brackets', 30 );
 add_action( 'dental_tratamientos', 'dental_tratamiento_implantes', 40 );
-add_action( 'dental_tratamientos', 'dental_tratamiento_molares', 50 );
-add_action( 'dental_tratamientos', 'dental_tratamiento_extra', 60 );
+add_action( 'dental_tratamientos', 'dental_ortodoncia_ortopedia', 50 );
+add_action( 'dental_tratamientos', 'dental_cirujia_dental', 60 );
 

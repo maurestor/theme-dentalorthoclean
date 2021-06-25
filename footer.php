@@ -67,7 +67,7 @@
 
             <div id='details' class='h-auto bg-center text-center verde border-green-800 p-4 shadow md:shadow-lg rounded-full'>
                 <p class='azul'>Dental <span class='verde'>"OrthoClean"</span> <span class='azul'><?php echo date('Y'); ?>.</span></p> 
-                <p class='text-gray-400 text-xs'>Desarrollado en <a class='underline' href="https://www.facebook.com/Mecarox" target="_blank">mecaroXg</a><a class='underline' href="<?php echo site_url('/wp-admin'); ?>" target="_blank">a</a><a class='underline' href="https://www.facebook.com/Mecarox" target="_blank">mes</a>.</p>
+                <p class='text-gray-400 text-xs'>Si te apetece contactar con el desarrollador de este sitio por favor <a class='underline' href="https://github.com/maurestor" target="_blank">Mau_Restor</a> en <a class='underline' href="https://www.facebook.com/Mecarox" target="_blank">mecaroXgames</a> <br> <a class='text-gray-50' href="<?php echo site_url('/wp-admin'); ?>" target="_blank">adm</a>.</p>
             </div>
         </footer>
     

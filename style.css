@@ -586,7 +586,7 @@ blockquote.right {}
     text-shadow: 1px 1px 1px rgb(213, 213, 213);
 }
 .stroke-a{
-    -webkit-text-stroke: 1px rgb(99, 99, 99);
+    -webkit-text-stroke: 1px rgb(60, 60, 60);
 }
 .stroke-b{
     -webkit-text-stroke: 1px rgb(0, 107, 157);
