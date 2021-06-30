@@ -47,7 +47,7 @@
                     <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 azul gap-2" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
                     </svg> -->
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1.3em" height="1.3em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(0deg); transform: rotate(0deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 72 72" class=''>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1.3em" height="1.3em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(0deg); transform: rotate(0deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 72 72" class='animate-ping'>
                         <path fill="#fff" d="M56.846 18.796a11.642 11.642 0 0 0-10.55-5.013c-4.808.546-6.06 2.765-10.357 3.188c-4.296-.423-5.55-2.642-10.357-3.188a11.642 11.642 0 0 0-10.55 5.013c-2.758 4.212-2.153 10.504 1.812 15.318a6.092 6.092 0 0 1 1.444 3.626c.237 6.121 1.402 23.342 6.988 24.508c4.31.9 2.03-19.697 10.663-19.43c8.632-.267 6.354 20.329 10.663 19.43c5.586-1.166 6.75-18.387 6.988-24.508a6.092 6.092 0 0 1 1.444-3.626c3.965-4.814 4.57-11.106 1.812-15.318z"/>
                         <path fill="#d0cfce" d="M56.846 18.796c-1.252-2.796-12.474-7.687-10.55-5.013c3.06 4.252 4.207 12.231 3.257 20.922c-.818 7.468-5.476 23.877-5.476 23.877c-.365 2.232.97 4.208 1.83 4.071c2.375-.377 7.936-7.613 7.683-24.913a5.675 5.675 0 0 1 1.443-3.626a14.41 14.41 0 0 0 1.813-15.318z"/>
                         <g>
@@ -55,7 +55,7 @@
                         </g>
                         <rect x="0" y="0" width="72" height="72" fill="rgba(0, 0, 0, 0)" />
                     </svg>
-                    <p>Jacarandas #62, El Molino Tezonco, CDMX</p>
+                    <a href='contacto#mapa' class='underline'><p>Jacarandas #62, El Molino Tezonco, CDMX</p></a>
                 </div>
                 
                 <div class='flex mx-auto text-sm pt-0 mt-0'>
@@ -64,12 +64,12 @@
                         <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                     </svg>
                     <p id='first-phone-number' class=''>5618350826</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1.3em" height="1.3em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 259" class=''>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1.3em" height="1.3em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 259" class='animate-ping'>
                         <path d="M67.663 221.823l4.185 2.093c17.44 10.463 36.971 15.346 56.503 15.346c61.385 0 111.609-50.224 111.609-111.609c0-29.297-11.859-57.897-32.785-78.824c-20.927-20.927-48.83-32.785-78.824-32.785c-61.385 0-111.61 50.224-110.912 112.307c0 20.926 6.278 41.156 16.741 58.594l2.79 4.186l-11.16 41.156l41.853-10.464z" fill="#00E676"/>
                         <path d="M219.033 37.668C195.316 13.254 162.531 0 129.048 0C57.898 0 .698 57.897 1.395 128.35c0 22.322 6.278 43.947 16.742 63.478L0 258.096l67.663-17.439c18.834 10.464 39.76 15.347 60.688 15.347c70.453 0 127.653-57.898 127.653-128.35c0-34.181-13.254-66.269-36.97-89.986zM129.048 234.38c-18.834 0-37.668-4.882-53.712-14.648l-4.185-2.093l-40.458 10.463l10.463-39.76l-2.79-4.186C7.673 134.63 22.322 69.058 72.546 38.365c50.224-30.692 115.097-16.043 145.79 34.181c30.692 50.224 16.043 115.097-34.18 145.79c-16.045 10.463-35.576 16.043-55.108 16.043zm61.385-77.428l-7.673-3.488s-11.16-4.883-18.136-8.371c-.698 0-1.395-.698-2.093-.698c-2.093 0-3.488.698-4.883 1.396c0 0-.697.697-10.463 11.858c-.698 1.395-2.093 2.093-3.488 2.093h-.698c-.697 0-2.092-.698-2.79-1.395l-3.488-1.395c-7.673-3.488-14.648-7.674-20.229-13.254c-1.395-1.395-3.488-2.79-4.883-4.185c-4.883-4.883-9.766-10.464-13.253-16.742l-.698-1.395c-.697-.698-.697-1.395-1.395-2.79c0-1.395 0-2.79.698-3.488c0 0 2.79-3.488 4.882-5.58c1.396-1.396 2.093-3.488 3.488-4.883c1.395-2.093 2.093-4.883 1.395-6.976c-.697-3.488-9.068-22.322-11.16-26.507c-1.396-2.093-2.79-2.79-4.883-3.488H83.01c-1.396 0-2.79.698-4.186.698l-.698.697c-1.395.698-2.79 2.093-4.185 2.79c-1.395 1.396-2.093 2.79-3.488 4.186c-4.883 6.278-7.673 13.951-7.673 21.624c0 5.58 1.395 11.161 3.488 16.044l.698 2.093c6.278 13.253 14.648 25.112 25.81 35.575l2.79 2.79c2.092 2.093 4.185 3.488 5.58 5.58c14.649 12.557 31.39 21.625 50.224 26.508c2.093.697 4.883.697 6.976 1.395h6.975c3.488 0 7.673-1.395 10.464-2.79c2.092-1.395 3.487-1.395 4.882-2.79l1.396-1.396c1.395-1.395 2.79-2.092 4.185-3.487c1.395-1.395 2.79-2.79 3.488-4.186c1.395-2.79 2.092-6.278 2.79-9.765v-4.883s-.698-.698-2.093-1.395z" fill="#FFF"/>
                         <rect x="0" y="0" width="256" height="259" fill="rgba(0, 0, 0, 0)" />
                     </svg>
-                    <p class=''><a href='https://wa.me/525570072288?text=%20' class='underline' target='_blank' class=''>5570072288</a></p>
+                    <p class=''><a href='https://wa.me/525570072288?text=%20' class='underline' target='_blank' class=''>5618350826</a></p>
                 </div>
 
                 <div class='flex left invisible sm:invisible'>
@@ -101,29 +101,90 @@
 
                     <!-- Overlay content -->
                     <div class="overlay-content">
-                        <a href="/">Portada</a>
-                        <a href="">Sobre Nosotros</a>
-                        <a href="#">Tratamientos dentales</a>
-                        <a href="#">Promociones</a>
-                        <a href="<?php echo site_url('index.php/contact'); ?>">Contacto</a>
+                        <a class='color-link' href="<?php echo site_url('#'); ?>">Inicio</a>
+                        <p href="<?php echo site_url('#tratamientos-dentales'); ?>">Tratamientos</p>
+                            <div class='secondary'>
+                                <a href="<?php echo site_url('limpieza-dental'); ?>">Limpieza dental</a>
+                                <a href="<?php echo site_url('odontopediatria'); ?>">Niños</a>
+                                <a href="<?php echo site_url('extracciones'); ?>">Extracciones</a>
+                            </div>
+                        <p href="<?php echo site_url('#tratamientos-dentales'); ?>">Especialidades</p>
+                            <div class='secondary'>
+                                <a href="<?php echo site_url('endodoncia'); ?>">Endodoncia</a>
+                                <a href="<?php echo site_url('odontologia-general'); ?>">Odontologia General</a>
+                                <a href="<?php echo site_url('periodoncia-2'); ?>">Periodoncia</a>
+                                <a href="<?php echo site_url('ortodoncia-2'); ?>">Ortodoncia</a>
+                                <a href="<?php echo site_url('cirujia-bucal-y-maxilofacial'); ?>">Cirujia</a>
+                                <a href="<?php echo site_url('prostodoncia'); ?>">Prostodoncia</a>
+                            </div>                                                               
+                        <a class='color-link' href="<?php echo site_url('promociones'); ?>">Promociones</a>
+                        <a class='color-link' href="<?php echo site_url('contacto'); ?>">Contacto</a>
                     </div>
 
                 </div>
-
+                
                 <nav class='mt-0 hidden md:block md:mx-auto lg:mt-0 lg:p-0 bg-transparent lg:block col-span-9 '>
                     <div class='menu'>
                         <ul class='flex flex-col float-left text-sm md:flex-row md:space-x-6 md:w-auto font-semibold w-full lg:bg-transparent p-6 md:p-0'>
-                            <li class='hover:underline w-auto'><a href="<?php echo site_url(''); ?>">Portada</a></li>
-                            <li class='hover:underline w-auto'><a href="<?php echo site_url('#tratamientos-dentales'); ?>">Tratamientos Dentales</a></li>
-                                <ul class='transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top w-8 min-w-min'>
-                                    <li class='hover:underline'><a href="<?php echo site_url('odontopediatria'); ?>">Niños</a></li>
-                                    <li class='hover:underline'><a href="<?php echo site_url('limpieza-dental'); ?>">Limpieza</a></li>
-                                    <li class='hover:underline'><a href="<?php echo site_url('endodoncia'); ?>">Endodoncia</a></li>
-                                    <li class='hover:underline'><a href="<?php echo site_url('extracciones'); ?>">Extracciones</a></li>
-                                    
+                            <li class='hover:underline w-auto'>
+                                <a href="<?php echo site_url('#'); ?>">Inicio</a>
+                            </li>
+                            
+                            <div class='dropdown inline-block relative'>
+                                <li class="rounded inline-flex items-center pointer-events-auto hover:underline">
+                                    <a href="<?php echo site_url('#tratamientos-dentales'); ?>">Tratamientos</a>
+                                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                        <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                                    </svg>
+                                </li>   
+                                <ul class="dropdown-menu absolute hidden text-gray-700 pt-1">
+                                    <li class='bg-gray-200 hover:bg-green-100 py-2 px-4 block whitespace-no-wrap'>
+                                        <a href="<?php echo site_url('limpieza-dental'); ?>">Limpieza dental</a>
+                                    </li>
+                                    <li class='rounded-t bg-gray-200 hover:bg-green-100 py-2 px-4 block whitespace-no-wrap'>
+                                        <a href="<?php echo site_url('odontopediatria'); ?>">Niños</a>
+                                    </li>
+                                    <li class='rounded-b bg-gray-200 hover:bg-green-100 py-2 px-4 block whitespace-no-wrap'>
+                                        <a href="<?php echo site_url('extracciones'); ?>">Extracciones</a>
+                                    </li>
                                 </ul>
-                            <li class='hover:underline w-auto'><a href="<?php echo site_url('promociones'); ?>">Promociones</a></li>
-                            <li class='hover:underline w-auto'><a href="<?php echo site_url('index.php/contacto'); ?>">Contacto</a></li>
+                            </div>
+
+                            <div class='dropdown inline-block relative'>
+                                <li class="rounded inline-flex items-center pointer-events-auto hover:underline">
+                                    <a href="<?php echo site_url('#tratamientos-dentales'); ?>">Especialidades</a>
+                                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                        <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                                    </svg>
+                                </li>   
+                                <ul class="dropdown-menu absolute hidden text-gray-700 pt-1">
+                                    <li class='bg-gray-200 hover:bg-green-100 py-2 px-4 block whitespace-no-wrap'>
+                                        <a href="<?php echo site_url('endodoncia'); ?>">Endodoncia</a>
+                                    </li>
+                                    <li class='bg-gray-200 hover:bg-green-100 py-2 px-4 block whitespace-no-wrap'>
+                                        <a href="<?php echo site_url('odontologia-general'); ?>">Odontologia General</a>
+                                    </li>
+                                    <li class='bg-gray-200 hover:bg-green-100 py-2 px-4 block whitespace-no-wrap'>
+                                        <a href="<?php echo site_url('periodoncia-2'); ?>">Periodoncia</a>
+                                    </li>
+                                    <li class='bg-gray-200 hover:bg-green-100 py-2 px-4 block whitespace-no-wrap'>
+                                        <a href="<?php echo site_url('ortodoncia-2'); ?>">Ortodoncia</a>
+                                    </li>
+                                    <li class='bg-gray-200 hover:bg-green-100 py-2 px-4 block whitespace-no-wrap'>
+                                        <a href="<?php echo site_url('cirujia-bucal-y-maxilofacial'); ?>">Cirujia</a>
+                                    </li>
+                                    <li class='bg-gray-200 hover:bg-green-100 py-2 px-4 block whitespace-no-wrap rounded-b'>
+                                        <a href="<?php echo site_url('prostodoncia'); ?>">Prostodoncia</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <li class='hover:underline w-auto'>
+                                <a href="<?php echo site_url('promociones'); ?>">Promociones</a>
+                            </li>
+                            <li class='hover:underline w-auto'>
+                                <a href="<?php echo site_url('index.php/contacto'); ?>">Contacto</a>
+                            </li>
                         </ul>
                     </div>
                 </nav>

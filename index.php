@@ -16,7 +16,7 @@ get_header(); ?>
     </div><!-- .entry-content -->
 
     <!-- servicios -->
-    <div id='menu-pages-second' class='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 p-5'>
+    <div id='menu-pages-second' class='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 p-5 gap-2'>
         <?php 
             do_action('dental_servicios'); 
         ?>
@@ -44,7 +44,7 @@ get_header(); ?>
     </div><!-- /promo-visitanos -->
 
     <!-- tratamientos -->
-    <div id ='tratamientos' class='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 p-5'>
+    <div id ='tratamientos' class='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 p-5 gap-2'>
         <?php 
             do_action('dental_tratamientos'); 
         ?>

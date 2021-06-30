@@ -37,21 +37,22 @@ define( 'ORTHOCLEAN_THEME_DIR', trailingslashit( get_template_directory() ) );
 define( 'ORTHOCLEAN_THEME_URI', trailingslashit( esc_url( get_template_directory_uri() ) ) );
 
 
-
-// Carga el CSS principal del tema.
-function orthoclean_enqueue_style() {
-  wp_enqueue_style( 'orthoclean-style', get_stylesheet_uri() ); 
-}
-add_action( 'wp_enqueue_scripts', 'orthoclean_enqueue_style' );
-
-
-// Agregando script-miau
-function miau_script(){
-  wp_enqueue_script('script-miau', get_template_directory_uri(). '/assets/js/script.js');
+// CSS principal y JS
+function mecarox_scripts() {
+  wp_enqueue_style( 'mecarox', get_stylesheet_uri() );
+  wp_enqueue_script( 'mecarox', get_stylesheet_directory_uri().'/assets/js/script.js' );
+  // remove_action( 'wp_head',  'last_script');
+  // add_action( 'wp_footer',  'last_script', 10);
   
 }
-add_action('wp_enqueue_scripts', 'miau_script');
+add_action( 'wp_enqueue_scripts', 'mecarox_scripts' );
 
+
+// Load final script
+function mecarox_last_script(){
+  wp_enqueue_script( 'last_script', get_stylesheet_directory_uri().'/assets/js/last.js', $in_footer=true);
+}
+add_action( 'wp_footer', 'mecarox_last_script');
 
 
 add_theme_support('widgets');
@@ -138,6 +139,15 @@ function iconos_glypcs(){
   wp_enqueue_script('js-file', get_template_directory_uri(). '/assets/js/iconify.min.js');
 }
 add_action('wp_enqueue_scripts', 'iconos_glypcs');
+
+
+function splider_headers(){
+  wp_enqueue_script( 'splider', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js');
+  wp_enqueue_style( 'splider', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css');
+  wp_enqueue_style( 'splider', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide-core.min.css');
+
+}
+add_action( 'wp_enqueue_scripts', 'splider_headers'); 
 
 
 //Remove Gutenberg Block Library CSS from loading on the frontend

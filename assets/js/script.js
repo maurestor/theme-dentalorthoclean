@@ -43,3 +43,37 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.width = "0%";
   }
+
+  
+// Parte del Splider
+document.addEventListener( 'DOMContentLoaded', function () {
+  new Splide( '#slider-icons',{
+    // 'cover': true,
+    // 'heightRatio': 0.5,
+    type   : 'loop',
+    autoplay: true,
+    pagination: false,
+    interval: 5000,
+    arrows:false,
+    pauseOnFocus: false,
+    speed: 2000, // Velocidad de la transicion.
+    rewind: true,
+    perPage: 3,
+  } ).mount();
+
+  // new Splide( '#slider-galery',{
+  //   // 'cover': true,
+  //   // 'heightRatio': 0.5,
+  //   type   : 'loop',
+  //   autoplay: true,
+  //   pagination: false,
+  //   interval: 5000,
+  //   arrows:false,
+  //   pauseOnFocus: true,
+  //   speed: 1500, // Velocidad de la transicion.
+  //   rewind: true,
+  //   perPage: 3,
+  // } ).mount();
+
+
+} );
